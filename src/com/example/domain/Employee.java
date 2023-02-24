@@ -1,5 +1,7 @@
 package com.example.domain;
 
+import java.text.NumberFormat;
+
 public class Employee {
     private int id;
     private String name;
@@ -34,5 +36,12 @@ public class Employee {
 
     public void raiseSalary(double increase) {
         this.salary += increase;
+    }
+
+    public String toString() {
+        return  "Employee ID:       " + getId() + "\n" +
+                "Employee Name:     " + getName() + "\n" +
+                "Employee SSN:      " + getSsn() + "\n" +
+                "Employee Salary:   " + NumberFormat.getCurrencyInstance().format(getSalary());
     }
 }
