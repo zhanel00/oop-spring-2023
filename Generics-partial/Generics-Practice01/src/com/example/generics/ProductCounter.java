@@ -1,5 +1,6 @@
 package com.example.generics;
 
+import java.sql.SQLOutput;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.TreeMap;
@@ -21,18 +22,33 @@ public class ProductCounter {
         productNames.put("Red Ball Cap", "1H01");
         productNames.put("Duke Mug   ", "1M02");
 
-        // Create Product Counter Object and process data
+        ProductCounter pc1 = new ProductCounter(productNames);
+        pc1.processList(parts);
+        pc1.printReport();
     }
 
     public ProductCounter(Map productNames) {
-        // Your code here
+        this.productNames = productNames;
     }
 
     public void processList(String[] list) {
-        // your code here
+        long curVal = 0;
+        for (String itemNumber:list) {
+            if (productCountMap.containsKey(itemNumber)) {
+                curVal = productCountMap.get(itemNumber);
+                curVal++;
+                productCountMap.put(itemNumber, new Long(curVal));
+            } else {
+                productCountMap.put(itemNumber, new Long(1));
+            }
+        }
     }
 
     public void printReport() {
-        // Your code here
+        System.out.println("=== Product Report ===");
+        for (String key:productNames.keySet()) {
+            System.out.print("Name: " + key);
+            System.out.println("\t\tCount: " + productCountMap.get(productNames.get(key))); // productNames(key) returns the ID of the part and then passes it to the productCountMap to return Count
+        }
     }
 }
