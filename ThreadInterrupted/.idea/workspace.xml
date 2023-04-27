@@ -5,26 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97ce60f4-d339-48cd-bcb2-6908932153a7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../NetworkThreading/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NetworkThreading/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NetworkThreading/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NetworkThreading/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NetworkThreading/NetworkThreading.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Synchronized/Synchronized.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Synchronized/src/com/example/PurchasingAgent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ThreadInterrupted.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ThreadInterrupted/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ThreadInterrupted/com/example/Counter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ThreadInterrupted/com/example/ThreadInterruptedMain.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/Counter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/ThreadInterruptedMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../EmployeePractice" beforeDir="false" afterPath="$PROJECT_DIR$/../EmployeePractice" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Generics-partial/Generics-Practice01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Generics-partial/Generics-Practice01/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Labs08-StringsPractice02/out/production/Labs08-StringsPractice02/com/example/strings/FindText.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Labs08-StringsPractice02/out/production/Labs08-StringsPractice02/com/example/strings/FindText.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +55,7 @@
       <workItem from="1681355556429" duration="1614000" />
       <workItem from="1681454918979" duration="820000" />
       <workItem from="1681457329359" duration="275000" />
+      <workItem from="1681997466570" duration="602000" />
     </task>
     <servers />
   </component>
